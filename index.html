@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tomán Attila">
+    <title>Tomán Attila | PORTFÓLIÓ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/1664726f95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-gold.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Főoldal</a></li>
+                    <li><a href="#about">Rólam</a></li>
+                    <li><a href="#services">Szolgáltatás</a></li>
+                    <li><a href="#portfolio">Portfólió</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                    <i class="fa fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Frontend Fejlesztő</p>
+                <h1>Szia, Tomán <span>Attila</span><br>vagyok</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile_photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Rólam</h1>
+                    <p>A frontend fejlesztésben az a legizgalmasabb számomra, hogy lehetőségem nyílik arra, hogy közvetlenül a felhasználóval
+                    érintkező alkotásokat hozzak létre.
+                    A kreativitás számomra nem csupán egy eszköz, hanem egy életforma. A frontend fejlesztésben a kreativitásommal képes
+                    vagyok vizuálisan lenyűgöző és intuitív felhasználói felületeket létrehozni. Szeretem a problémák megoldását, és hiszem,
+                    hogy a kreatív gondolkodás kulcsfontosságú a hatékony és innovatív megoldások kialakításában.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Készségek</p>
+                        <p class="tab-links" onclick="opentab('experience')">Tapasztalat</p>
+                        <p class="tab-links" onclick="opentab('education')">Tanulmányok</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML | CSS</span>
+                                <br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #F2BA52;"></i>
+                                <br>
+                            </li>
+                            <li><span>JAVASCRIPT | ANGULAR</span>
+                                <br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                                <br>
+                            </li>
+                            <li><span>GIT | FIREBASE</span>
+                                <br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                                <br>
+                            </li>
+                            <li><span>INDESIGN | ILLUSTRATOR | PHOTOSHOP</span>
+                                <br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>VEZETŐI TAPASZTALAT</span><br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                            </li>
+                            <li><span>MULTI TASKING</span><br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                            </li>
+                            <li><span>IDŐ MENEDZSMENT</span><br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                            </li>
+                            <li><span>KOMMUNIKÁCIÓ</span><br>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-solid fa-star" style="color: #F2BA52;"></i>
+                                <i class="fa-regular fa-star" style="color: #F2BA52;"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>JUNIOR FRONTEND FEJLESZTŐ | 2023</span><br>Masterfield Akadémia</li>
+                            <li><span>RENDEZVÉNYSZERVEZŐ | 2014</span><br>EFEB Felnőttoktatási Központ</li>
+                            <li><span>RENDÉSZETI ALAPISMERETEK | 2011</span><br>Adyligeti Rendészeti Szakközépiskola</li>
+                            <li><span>KÖZGAZDASÁGI ÉRETTSÉGI | 2001-2005</span><br>Teleki Blanka Közgazdasági Szakközépiskola</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Szolgáltatás</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <h3>Ahol a technológia találkozik a kreativitással</h3>
+                    <p>A webdesign nem csak a színek és formák világa. Ez a hely, ahol a technológia találkozik a kreativitással, ahol a kódok
+                    életre kelnek, hogy lenyűgöző és interaktív felhasználói élményt nyújtsanak. Mint frontend fejlesztő, a
+                    feladatom, hogy a weboldalakat nem csak esztétikailag vonzóvá, hanem könnyen használhatóvá és intuitívvá is tegyem.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Reszponzív Design</h2>
+                    <h3>Az Ön üzlete minden eszközön</h3>
+                    <p>A reszponzív webdesign biztosítja, hogy a weboldalak minden eszközön jól nézzenek ki és jól működjenek, legyen az
+                    asztali számítógép, laptop, tablet vagy mobiltelefon. A reszponzív webdesign nem csak a felhasználói élmény javításáról szól, hanem a SEO-ról (keresőmotor-optimalizálás) is.
+                    A Google és más keresőmotorok előnyben részesítik azokat a weboldalakat, amelyek mobilbarátok.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <h3>Az Ön digitális jövője</h3>
+                    <p>Az app design a digitális világ művészete. Minden ikon, minden animáció, minden interakció számít. De az app design
+                    ennél sokkal több. Ez a felhasználói élmény (UX) és a felhasználói felület (UI) tervezésének összessége, amelyek
+                    együttesen alkotják az alkalmazásokat, amelyekkel nap mint nap találkozunk. Mint frontend fejlesztő, a célom, hogy minden alkalmazás, amit készítek, ne csak szép legyen, hanem hasznos is.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfólió</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/weather-app.png">
+                    <div class="layer">
+                        <h3>Időjárás App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <a href="https://atee11.github.io/weatherapp/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/coming-soon.png">
+                    <div class="layer">
+                        <h3>Coming Soon oldal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://atee11.github.io/coming-soon-page/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/effect-hair.png">
+                    <div class="layer">
+                        <h3>Hajszalon weboldal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://atee11.github.io/barbershop/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/coming-soon-page.png">
+                    <div class="layer">
+                        <h3>Coming Soon oldal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://atee11.github.io/coming-soon/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/password-gen.png">
+                    <div class="layer">
+                        <h3>Jelszó erősség ellenörző</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://atee11.github.io/password-strength-indicator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/password.png">
+                    <div class="layer">
+                        <h3>Jelszó generátor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="https://atee11.github.io/password_generator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="container">
+            <div class="row contact">
+                <div class="contact-left">
+                    <h1 class="sub-title">Kapcsolat</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>toman.ati@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+36 70 604 4306</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/atee11" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: white;"></i></i></a>
+                    </div>
+                    <a href="images/toman_attila_cv_23.pdf" target="_blank" class="btn btn2">Önéletrajz letöltése</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Neved" required>
+                        <input type="email" name="email" placeholder="Email címed" required>
+                        <textarea name="message" rows="6" placeholder="Üzenet"></textarea>
+                        <button type="submit" class="btn btn2">Küld</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Minden jog fenntartva &copy; Tomán Attila | 2023</p>
+        </div>
+    </div>
+    
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzZvKlqZsxGw8MtD0V2tIO4ctf7zVolkXTLUtoYd9A5yqqdzQyolaZYOnhp1WNKevMA_Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
