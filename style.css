@@ -401,7 +401,8 @@ nav .fa {
 @media (max-width: 600px) {
     #header {
         background: #023059;
-        margin-bottom: -500px;
+        height: auto;
+        margin-bottom: -50px;
     }
 
     .header-text {
